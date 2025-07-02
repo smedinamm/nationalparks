@@ -5,7 +5,7 @@ env:
   IMAGE_TAGS: ${{ github.sha }}
   OPENSHIFT_SERVER: ${{ secrets.OPENSHIFT_SERVER }}
   OPENSHIFT_TOKEN: ${{ secrets.OPENSHIFT_TOKEN }}
-  OPENSHIFT_NAMESPACE: "user15-lab04"
+  OPENSHIFT_NAMESPACE: "user15-lab4"
   APP_PORT: "8080"
  
 on:
